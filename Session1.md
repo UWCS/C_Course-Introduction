@@ -162,7 +162,7 @@ So we can interact with the console using `printf` but we need a way of handling
 
 Variables have:
 - a **name**
-- a **type** ( which tell you what kind of data is stored)
+- a **type** ( which tells you what kind of data is stored)
 - a **value**, regardless of if you provide one! 
 
 ### Declaring with value
@@ -177,7 +177,7 @@ This is the difference between **declaration** and **initialisation**.
 
 Both of these **declare** the variable (they tell **C** that memory must be reserved for the variable), but only the first **initialises** the variable with a value. In other words, **initialisation** is assigning the variable with a value. 
 
-We will see later that the variable that isn’t initialised *does* have a value, but it might not be what you expect! 
+When a variable is not initialised, it has some garbage value (could be anything) which we shall see soon!
 
 ## <a name="Integers"> Integer variables </a> 
 
@@ -439,7 +439,7 @@ The longs even come with their own format specifiers: **ld** (for long) and **ll
 
 ### <a name="IntegerTypeExercise"> Integer Type Exercise: Outputting the size of types </a>
 
-1) We know the *minimum* number of bytes that a type must have, but how do we know what the *actual* number of bytes is for *your* machine? Well, wouldn't you like to know you nosy little scamp! 
+1) We know the *minimum* number of bytes that a type must have, but how do we know what the *actual* number of bytes is for *your* machine? 
 
 You can use the `sizeof` function to do this. For example: 
 
@@ -571,17 +571,7 @@ printf("Cannot cast spell!");
 
 ## <a name="Floats"> Representing Decimals: Floating-Point Numbers </a>
 
-Before we cover the pure *joy* of for loops, here's a quick word from our sponsor. 
-
-```
-Aren't you tired of having to use boring old integer types? Not even being able to use 0.5 or more exciting numbers? Doing 3/2 and getting 1? It makes no sense!
-
-Introooooduccingggggg floating-point types!
-These guys will perk your code right up with ✨decimal numbers✨
-
-We've got float for all your basic decimal needs, and if you need a *little* extra precision then we've got the ultra-premium-deluxe d o u b l e type! 
-Not enough for you? We've got *just* the type for you! looooong double! 
-```
+To represent decimal numbers, we can use the following types:
 
 - **float** can store decimals with precision up to 6-7 decimal places. 
 - **double** can store decimals with precision up to 14-15 decimal places. 
@@ -599,7 +589,7 @@ Sometimes, though you'll need to **explicitly** type cast.
 <img src="images/ExplicitCasting.PNG" alt="Explicit casting with special colouring" width="132" height="24"/>
 *How you write (syntax) for explicit typecasts*
 
-Let's do `3/2` like the ad promised, and we can see why explicit casting is useful: 
+Let's do `3/2`, and we can see why explicit casting is useful: 
 
 ```c
 #include <stdio.h>
@@ -654,11 +644,13 @@ Ever wanted to do something *over and over again* a set number of times? Or do s
 - Expression 3 (update) is executed after each loop (if we decide to keep going)
 
 For example, the following is a valid for loop:
+
 ```c
 for(int i = 0; i < 4; i++){
     printf("%d ", i);
 }
 ```
+
 We call each time we go through the loop an *iteration* and if we're looping, then we are said to be *iterating* through the loop. 
 This particular loop iterates `4` times (for `i = 0, 1, 2, 3`).
 
@@ -806,18 +798,16 @@ int arr[] = {1,2};
 
 ## Next Session…
 
-Well done on making it through Session 1 alive! 
+Well done on making it through Session 1!
 
 Next session, we’ll be covering arguably the most important and famous topic in **C**: pointers. 
 We'll start with how to make our code a little more organised and powerful (now that we know some more advanced concepts) with functions. 
 
 Hope to see you there! 
 
-## <a name="OptionalExercises"> Optional Exercises </a> 
+## <a name="Capstone"> Capstone Project </a> 
 
-(TO BE COMPLETED BEFORE C WORKSHOP 2025 - since people finished the 2024 session with almost an hour left)
 
-It's not expected that you do any of these exercises; this is for people who finish the session early and are bored. 
 
 ## Acknowledgements
 
