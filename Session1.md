@@ -2,9 +2,10 @@
 
 The course starts gently by introducing basic programming concepts in **C** such as variables, types, and loops. If you’re an experienced programmer then feel free to skim through these sections to get to the more **C**-specific parts! 
 
-I would personally recommend doing all the exercises regardless of your level, to ensure that you know the material. At times, my writing can be verbose so please do skim through the content, scan for bold/italicised text, and carefully read content when you cannot do the corresponding exercises. 
+It is recommended to do all the exercises regardless of level, to ensure that you know the material. Writing can be verbose at times, so do scan for bold/italicised text.
 
 Good luck and happy coding!
+
 ## Contents 
 
 - <a href="#WhatIsC" style="color: black;"> What is C </a>
