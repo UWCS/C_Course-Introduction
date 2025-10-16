@@ -36,7 +36,7 @@ Good luck and happy coding!
 
 ## <a name="WhatIsC"> What is C </a>
 
-**C** is a general purpose programming language that originated as the language for the UNIX Operating System. From its humble beginnings, **C** has been spread everywhere and it's highly likely that you'll be relying on **C** code every single day. Everything from airplane flight systems to version-control software like Git to applications you may be using right now relies on **C**. Even if you're coding something in a different language, it's likely that the interpreter/compiler is written in **C** and your machine is probably being held together by **C** and duck-tape. 
+**C** is a general purpose programming language that originated as the language for the UNIX Operating System. From its humble beginnings, **C** has been spread everywhere and it's highly likely that you'll be relying on **C** code every single day. Everything from airplane flight systems to version-control software like Git to applications you may be using right now relies on **C**. Even if you're coding something in a different language, it's likely that the interpreter/compiler is written in **C** and your machine is probably being held together by **C** and duct tape. 
 
 **C** is known for its mix of a high-level and low-level approach; you still get a decent amount of features that you see in languages like Python, but you can still interact pretty closely with the hardware like a low-level language does. Relatedly, it's known for having some pretty hard concepts like pointers and memory management but don't worry - we'll cover these in the course! 
 
@@ -378,6 +378,7 @@ int main(){
     printf("%d\n", i); // output: 6 
 
     i++;
+    // here is a random comment
     i++;
 
     printf("%d\n", i); // output: 8 
@@ -712,6 +713,8 @@ So far, we've dealt with variables with just one value; this can't really be exp
 
 So we use **arrays** which are a collection of values. The values are stored in contiguous memory locations which is a fancy way of saying that the values are stored *right next to each other*. 
 
+Also, the type of every element inside the array is the same.
+
 We can initialise an array in **C** like this: 
 ```c 
 int anArray[] = {3, 1, 4, 2, 11};
@@ -796,6 +799,12 @@ Can you calculate the average for this array (using a for loop)?
 int arr[] = {1,2};
 ```
 
+## <a name="Capstone"> Capstone Project </a> 
+
+Look in Capstone and edit the TextBasedAdventureGame.c file! 
+
+Fill in the last bit (it's commented), and then add whatever your heart desires to the game.
+
 ## Next Session…
 
 Well done on making it through Session 1!
@@ -804,10 +813,6 @@ Next session, we’ll be covering arguably the most important and famous topic i
 We'll start with how to make our code a little more organised and powerful (now that we know some more advanced concepts) with functions. 
 
 Hope to see you there! 
-
-## <a name="Capstone"> Capstone Project </a> 
-
-
 
 ## Acknowledgements
 
