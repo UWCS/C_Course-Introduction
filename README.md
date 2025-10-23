@@ -28,7 +28,7 @@ git clone https://github.com/UWCS/C_Course-Introduction
 
 ## Contact Us 
 
-If there are any problems with the course or suggestions (especially with improving how digestible the content is), then please contact the society on **discord** (can be found on [their site](https://uwcs.co.uk/)).
+If there are any problems with the course or suggestions (especially with improving how digestible the content is), then please contact the society on **discord** (can be found on [our site](https://uwcs.co.uk/)).
 
 ## Acknowledgements 
 
