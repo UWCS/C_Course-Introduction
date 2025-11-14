@@ -778,6 +778,8 @@ printf("%d\n", primes[8]); // this is allowed!
 
 What will usually happens is that some random value will be printed because **C** will fetch a value from memory (in the example, where the 9th element actually would be stored if the array had it) but it won't be from the array. In the worst case, the whole program will crash because we don't have permission to access that memory (or it doesn't exist!) This is a **segmentation fault**. 
 
+The Rust Reference maintains a [list of undefined behaviours](https://doc.rust-lang.org/reference/behavior-considered-undefined.html) in Rust which might be of interest.
+
 ### <a name="ArrayExercises"> Array Exercises </a>
 
 1) Given the array:
